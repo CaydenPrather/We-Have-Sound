@@ -32,5 +32,6 @@ function stopCollection(){
     // enabling/disabling the buttons
     document.getElementById("srtBTN").disabled = false;
     document.getElementById("stpBTN").disabled = true;
+    document.getElementById('myAudio').pause();
 }
 
